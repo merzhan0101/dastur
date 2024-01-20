@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="kk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!--aos library-->
+    <link rel="short icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <title>"Дәстүр" фильмі</title>
+</head>
+
+<body>
+    <div class="container">
+        <header data-aos="fade-down" class="header"> <!--animation aos-->
+            <a class="logo" href="#">Сәлем әлем</a>
+            <form class="search">
+                <input class="search-input" type="text" placeholder="Фильмдер, сериалдар" />
+                <button class="search-button">
+                    <img src="./assets/images/search-icon.svg" alt="">
+                </button>
+            </form>
+            <div class="profile">
+                <a class="profile-bookmark" href="#">
+                    <img src="./assets/images/bookmark.svg">
+                </a>
+                <a class="profile-avatar" href="#">
+                    <img src="./assets/images/toqayev.png" alt="">
+                </a>
+            </div>
+        </header>
+        <h1 data-aos-delay="300" data-aos="fade-up" class="title">Дәстүр</h1>
+        <p data-aos="fade-up" class="category">Триллер</p>
+        <div class="info" data-aos="fade-up">
+            <div class="info-wrapper">
+                <p class="info-type">Фильм</p>
+                <p class="info-country">Қазақстан, 2024 жыл</p>
+                <a href="https://youtu.be/2WA2wxQY7Cc?si=JKlGF7sNFzFHmqqn" data-fancybox class="info-button">Трейлер көру</a>
+            </div>
+            <a href="#" class="info-link">
+                Толығырақ
+            </a>
+        </div>
+        <main class="main">
+            <div class="short-info">
+                <div class="short-info_img">
+                    <img src="/assets/images/cover.jpg">
+                </div>
+                <button class="short-info_button">Көремін</button>
+                <h3 class="short-info_tittle">Басты рөлдерде:</h3>
+                <u class="actors">
+                    <li class="actors-item">Алдабек Шалбаев</li>
+                    <li class="actors-item">Ермек Шынболатов</li>
+                    <li class="actors-item">Н. Жеткерген</li>
+                    <li class="actors-item">Н. Бексултанова</li>
+                    <li class="actors-item">Алдияр Жапарханов</li>
+                    <li class="actors-item">Ануар Баймухаев</li>
+                    <li class="actors-item">Ә. Есжан</li>
+                </u>
+            </div>
+            <div>
+                <nav class="tab-buttons">
+                    <button class="tabs-button active" data-tab="info">Сипаттама</button>
+                    <button class="tabs-button" data-tab="reviews">Пікірлер</button>
+                    <button class="tabs-button" data-tab="actors">Актерлар</button>
+                    <button class="tabs-button" data-tab="facts">Факттер</button>
+                    <a href="#"><img src="/assets/images/bookmark-icon.svg" alt=""></a>
+                </nav>
+                <div class="full-content">
+                    <div class="content">
+                        <div id="info" class="tab-item active">
+                            <p>Қуаныш Бейсектің кинотеатрдағы «Дәстүр» дебютінің промо кампаниясы әлеуметтік желіде
+                                қарқынды жүрді. Одан бөлек, «Ирина Қайратовна» тобына ашық әрі резонансты бейнебаян
+                                түсірген, жобаның бұрынғы мүшесінің шығармашылығымен жақсы таныс адамдар көп үміт күтті.
+                                Қуаныш (немесе Кука, достары мен әріптестері оны осылай атайды) көбіне басты кейіпкер
+                                болудың орнына, кадр сыртында қалуды жөн көретін адам. Әйтсе де, режиссердің жеке бренді
+                                де танымал– дүйім жұрт оны жақсы таниды, барлық бастамасын белсенді түрде қолдайды.
+                            </p>
+                            <p>Қуаныштың екінші толық метражды картинасын да жұрт жақсы қабыл алды. Бұл жолғы фильмінде
+                                әлеуметтік драма мен хоррор элементтері бар. Премьера болған күні Алматы
+                                кинотеатрларында бос орын табу оңай шаруа болмады.
+                            </p>
+                            <h2>Синопсис</h2>
+                            <p>Оқиға ойдан шығарылған, атауы иронияға толы “Болашақ” ауылында өрбиді. Бітіру кешінен
+                                қайтып бара жатқан Диана есімді сұлуды сол ауылдың бұзақысы Болат зорлайды. Болаттың
+                                әкесі Нұрсұлтан – үлкен шаруашылықтың иесі. Ол әкімнің қолдауымен Диананың қарапайым
+                                жұмыс істейтін әке-шешесін ұяттан қашу үшін, ал өзі ұлын түрмеден құтқару үшін, дәстүрді
+                                сақтап, қызды зорлаған адамға тұрмысқа беруге көндіреді. Үйлену тойынан кейін ауқатты
+                                отбасының басына күн туады.
+                            </p>
+                            <a href="#">©Александр Медведев, Власть.кз</a>
+                        </div>
+                        <div id="reviews" class="tab-item">Пікірлер</div>
+                        <div id="actors" class="tab-item">Актерлар</div>
+                        <div id="facts" class="tab-item">Факттер</div>
+                    </div>
+                    <aside class="aside">
+                        <h3 class="aside-title">Жаңалықтарға жазылыңыз</h3>
+                        <form class="aside-form">
+                            <input placeholder="Сіздің E-mail" class="aside-form_input" type="email" />
+                            <button class="aside-form_submit">
+                                <img src="/assets/images/button-check.svg">
+                            </button>
+                        </form>
+                        <div>
+                            <img src="/assets/images/image 1.jpg">
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!--aos library-->
+</body>
+
+</html>
